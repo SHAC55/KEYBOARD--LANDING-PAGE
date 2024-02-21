@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 60px;
+    font-weight: 600;
+    background-color:#e5383b;
+    color: white;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+button{
+    font-weight: 700;
+    font-size: medium;
+    padding: 20px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #e7eff2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box1{
+    display: flex;
+     justify-content: space-around; 
+}
+.intro h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.intro p{
+    display: flex;
+    padding-left: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #9197a7;
+}
+.intro button{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px;
+    height: 60px; 
+     cursor: pointer;
+    background-color:#f06717 ;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.date{
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: medium;
+    color: #9197a7;
+}
+.box2{
+     display: flex; 
+     /* margin-left:100px; */
+     background-color: #e7eff2;
+     height: 500px;
+     width: 700px;
+     background-image: url("https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2022/10/Daily-Deal-10.19.22-MageGee-MK-Box-Portable-Mechanical-Keyboard.png");
+     border-radius: 10px;
+}
+/*  CONTAINER  */
+
+.container{
+    display: flex;
+    padding: 80px;
+    
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 30px;
+    color: #f06717;
+}
+.letter{
+    color:  #9197a7;
+    font-weight: 600;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+footer{
+    background-color: black;
+    height: 260px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.company{
+    margin-top: 30px;
+}
+.company p{
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: #9197a7;
+
+}
+.contact{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.contact .detail{
+    display: flex;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color:burlywood;
+}
+.social{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 500;
+
+}
+.social p{
+    display: flex;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#9197a7;
+}
+.slogo{
+    padding-top: 20px;
+}
+.insta{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.fb{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.x{
+    cursor: pointer;
+}
+.fb:hover{
+    transform: scale(0.95);
+    transition: all ease 0.3s;
+}
+.insta:hover{
+    transform: scale(0.95);
+    transition: all ease 0.3s;
+}
+.x:hover{
+    transform: scale(0.95);
+    transition: all ease 0.3s;
+}
+
+
+
+
+
+
+
+
+@media (max-width :1619px){
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        margin-bottom: 45px;
+    }
+    .box2{
+        margin-left: 30px;
+    }
+    .date{
+        padding: 6px;
+    }
+   
+}
+
+@media (max-width :1584px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info{
+        padding: 30px;  
+      }
+}
+@media (max-width :960px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        height: 460px;
+        width: 731px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :884px){
+    .box2{
+        padding: 3px;
+    }
+    nav button{
+        display: none;
+      
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
